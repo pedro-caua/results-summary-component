@@ -19,15 +19,12 @@ main{
     box-shadow: 2px 15px 20px hsla(241, 100%, 89%, 0.793);
 }
 
-
 main > div{
     width: 350px;
     height: 450px;
     border-radius: 25px;
     margin: auto;
 }
-
-
 
 #screen{
     background-image: linear-gradient(to bottom, #7857ff, #2e2be9);
@@ -43,6 +40,7 @@ main > div{
 #screen > p{
     padding: 15px;
 }
+
 #result{
     background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
     margin: auto;
@@ -112,12 +110,13 @@ main > div{
 
 #reaction div{
     color: #ff5757;
-    
 }
+
 #memory{
     background-color: #ffb01f1e;
     list-style-image: url(images/icon-memory.svg);
 }
+
 #memory div{
     color: hsl(39, 100%, 56%);
 }
@@ -130,10 +129,12 @@ main > div{
 #verbal div{
     color: #00bd91;
 }
+
 #visual{
     background-color: #1125d41e;
     list-style-image: url(images/icon-visual.svg);
 }
+
 #visual div{
     color: #1125d4;
 }
